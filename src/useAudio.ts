@@ -1,9 +1,16 @@
-import { useAudioAsset } from "@/context/LoaderContext/useAsset";
-import { useCallback } from "react";
+import { Howl } from "howler";
+import { useCallback, useMemo } from "react";
 import { ASSETS } from "./assets";
 
 export function useAudio() {
-  const bgMusic = useAudioAsset(ASSETS.WODDDEN_FLOOR.AUDIO.BG);
+  const bgMusic = useMemo(() => {
+    return new Howl({
+      src: ASSETS.WODDDEN_FLOOR.AUDIO.BG,
+      volume: 1,
+      html5: true,
+      preload: true,
+    });
+  }, []);
 
   return {
     playAudio: useCallback(() => {

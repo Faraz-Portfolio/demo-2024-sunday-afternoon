@@ -38,7 +38,7 @@ function WoodenFloor3D() {
   );
 }
 
-export function App() {
+export default function App() {
   return (
     <>
       <Canvas
