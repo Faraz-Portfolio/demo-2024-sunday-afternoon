@@ -22,7 +22,7 @@ export function Lights() {
       <Environment
         files={ASSETS.WODDDEN_FLOOR.TEXTURES.ENV}
         background
-        environmentIntensity={0.5}
+        environmentIntensity={0.8}
       />
 
       <group ref={curtainRef}>

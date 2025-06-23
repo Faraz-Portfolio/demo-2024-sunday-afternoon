@@ -15,6 +15,7 @@
     "@react-three/fiber": "^9.1.2",
     "@react-three/gpu-pathtracer": "^0.3.0",
     "@react-three/postprocessing": "^3.0.4",
+    "cannon-es": "^0.20.0",
     "howler": "^2.2.4",
     "leva": "^0.10.0",
     "react": "^19.1.0",
