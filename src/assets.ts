@@ -16,8 +16,5 @@ export const ASSETS = {
 
       ENV: "/demo-2024-sunday-afternoon/env/venice_sunset_1k.hdr",
     },
-    AUDIO: {
-      BG: "/demo-2024-sunday-afternoon/audio/background.mp3",
-    },
   },
 };
